@@ -14,8 +14,7 @@ public static class Program
 
         // TODO: shuffle the deck
         Console.WriteLine("Shuffling...");
-        deck.Shuffle();
-
+        
         // Deal all the cards
         while (!deck.Empty)
         {
